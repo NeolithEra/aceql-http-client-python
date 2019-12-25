@@ -27,7 +27,7 @@ setup(
 
     keywords='SQL HTTP',
     install_requires=[
-        'requests>=2.18.4',
+        'requests>=2.18.4,<3.0.0',
         'requests_toolbelt>=0.8.0',
         'pytz>=2017.3'
     ],
